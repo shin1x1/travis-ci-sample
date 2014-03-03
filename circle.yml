@@ -1,6 +1,6 @@
 machine:
   services:
-    - postgres
+    - postgresql
 
 dependencies:
   pre:

@@ -1,7 +1,12 @@
+machine:
+  services:
+    - postgres
+
 dependencies:
   pre:
     - phpenv versions
     - php -i
+    - pecl install pdo_pgsql
 
 test:
   override:

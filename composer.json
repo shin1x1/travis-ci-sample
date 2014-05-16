@@ -1,4 +1,12 @@
 {
+  "name": "shin1x1/travis-ci-sample",
+  "authors": [
+    {
+      "name": "Masashi Shinbara",
+      "email": "shin1x1@gmail.com",
+      "homepage": "https://github.com/shin1x1"
+    }
+  ],
   "require-dev": {
     "phpunit/phpunit": "~3.7"
   },
